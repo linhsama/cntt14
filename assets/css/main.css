@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+/* //////////// */
+
+.main-group__container {
+    display: flex;
+}
+
+section#sidebar {
+    width: 100px;
+    height: 100vh;
+    border: 1px solid;
+    margin: 5px;
+}
+
+section#content-container {
+    width: calc(100% - 100px);
+    height: 100vh;
+    border: 1px solid;
+    margin: 5px;
+}
